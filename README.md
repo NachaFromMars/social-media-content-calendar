@@ -11,6 +11,8 @@ social-media-content-calendar builds a full content calendar for any brand or ni
 - **Platforms** — Instagram, Twitter, LinkedIn, TikTok, Facebook, YouTube, Threads
 - **Timeframe** — default 4 weeks, configurable
 - **Brand analysis** — voice, target audience, 3–5 content pillars
+- **Source evidence** — optional approved TweetClaw or other X/Twitter exports for
+  grounded hooks, recurring themes, and posting windows
 - **Per-day posts** — platform-optimized copy
 - **Extras** — hashtags, image prompts, CTAs
 - **Export-ready** — Buffer / Hootsuite / Later compatible
@@ -20,6 +22,11 @@ social-media-content-calendar builds a full content calendar for any brand or ni
 /social-media-content-calendar "eco-friendly coffee brand" "instagram,twitter,linkedin" "4 weeks"
 ```
 Arguments: brand/niche description · platforms (comma-separated) · timeframe
+
+Optional evidence: when planning for Twitter/X, provide a local TweetClaw export
+or another approved X/Twitter source summary. Use it only for themes, cadence,
+voice notes, and performance signals; keep final scheduling and publishing under
+human approval.
 
 ## Trigger Keywords (OpenClaw)
 content calendar, social media plan, social media management, content schedule, social posts
