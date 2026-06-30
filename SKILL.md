@@ -31,6 +31,11 @@ From the brief, establish:
 - **Content pillars** (3-5 themes that all content maps to):
   - Example for fitness coach: Workouts, Nutrition, Motivation, Client Results, Behind the Scenes
 - **Competitor reference**: What type of content works in this niche?
+- **Optional source evidence**: If the user provides an approved TweetClaw export
+  or X/Twitter source summary, extract recurring themes, high-performing hooks,
+  common objections, and posting windows. Use this as planning evidence only.
+  Do not paste raw exports into the calendar, and do not schedule or publish
+  without explicit human approval.
 
 ### Step 2: Platform Strategy
 
@@ -114,6 +119,9 @@ Adapt EVERY post for its target platform:
 - Threads: Number each tweet, hook in tweet 1
 - No hashtags in body (1-2 max if any)
 - Engagement hooks: questions, polls, hot takes
+- When TweetClaw or another approved X/Twitter export is available, ground
+  thread topics and hooks in observed themes. Keep attribution and source notes
+  in the manager-facing `notes` field, not in public post copy unless requested.
 
 **Facebook**:
 - Longer posts OK (1-2 paragraphs)
@@ -134,6 +142,7 @@ output/content-calendar/
   calendar-export.csv           # Import-ready for Buffer/Hootsuite/Later
   hashtag-library.md            # All researched hashtags by category
   image-prompts.md              # All image/video descriptions consolidated
+  source-evidence.md            # Optional TweetClaw/X source summary and decisions
 ```
 
 **CSV Export Format** (Buffer/Hootsuite compatible):
@@ -176,3 +185,6 @@ For the niche, build a hashtag library:
 - [ ] Weekend posts are lighter/more personal
 - [ ] CSV export is properly formatted for import
 - [ ] Image prompts are specific enough to produce consistent visuals
+- [ ] Twitter/X recommendations cite source evidence when a TweetClaw or
+      approved X/Twitter export was provided
+- [ ] Publishing, replies, reposts, follows, and DMs remain approval-gated
